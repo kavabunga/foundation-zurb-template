@@ -92,3 +92,13 @@ $font-path: "../fonts/FiraSans";
   font-weight: 100;
   font-style: normal;
 }
+
+// Different paddings for big and small screens 
+body {
+    @include breakpoint(small down) { 
+    padding: $body-small-padding;
+    margin: $body-small-margin;
+    }
+    padding: $body-padding;
+    margin: $body-margin;
+}
