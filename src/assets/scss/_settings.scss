@@ -518,16 +518,18 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
-// 33. Title Bar
+// 33. Title Bar (NOW WORKING)
 // -------------
 
 $titlebar-background: $black;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
-$titlebar-text-font-weight: bold;
-$titlebar-icon-color: $white;
+$titlebar-margin: 0.5rem;
+$titlebar-text-font-size: 120%;
+$titlebar-text-font-weight: $global-weight-bold;
+$titlebar-icon-color: $semen;
 $titlebar-icon-color-hover: $medium-gray;
-$titlebar-icon-spacing: 0.25rem;
+$titlebar-icon-spacing: 0.5rem;
 
 // 34. Tooltip
 // -----------

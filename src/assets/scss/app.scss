@@ -101,4 +101,23 @@ body {
     }
     padding: $body-padding;
     margin: $body-margin;
+// Title-bar Variables
+.title-bar {
+  .title-bar {
+    background: $titlebar-background;
+    color: $titlebar-color;
+    padding: $titlebar-padding;
+    margin-bottom: $titlebar-margin;
+  }
+  
+  .menu-icon {
+      margin-#{$global-left}: $titlebar-icon-spacing;
+      margin-#{$global-right}: $titlebar-icon-spacing;
+      @include hamburger($color: $titlebar-icon-color, $color-hover: $titlebar-icon-color-hover);
+  }
+ 
+  .title-bar-title {
+    font-weight: $titlebar-text-font-weight;
+    font-size: $titlebar-text-font-size;
+  }
 }
