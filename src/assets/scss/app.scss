@@ -130,6 +130,21 @@ em {
 .menu {
   font-size: $menu-font-size;
 }
+
+// Menu selected (Stacey)
+// .menu ul li.selected { 
+//   color: $white; 
+//   text-indent: -0.7em; 
+// }
+// .menu ul li.selected a { 
+//   padding: 1px; 
+//   border: 0px; 
+//   background: $black; 
+//   color: $white; 
+//   border-bottom: 0px solid #ccc;
+//   cursor: default; 
+// } 
+
 // Title-bar Variables
 .title-bar {
   .title-bar {
