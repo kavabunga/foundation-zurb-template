@@ -42,3 +42,53 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+$font-path: "../fonts/FiraSans";
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Regular.eot");
+  src: url("#{$font-path}-Regular.woff") format("woff"),
+       url("#{$font-path}-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Bold.eot");
+  src: url("#{$font-path}-Bold.woff") format("woff"),
+       url("#{$font-path}-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Light.eot");
+  src: url("#{$font-path}-Light.woff") format("woff"),
+       url("#{$font-path}-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Extrabold.eot");
+  src: url("#{$font-path}-Extrabold.woff") format("woff"),
+       url("#{$font-path}-Extrabold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Heavy.eot");
+  src: url("#{$font-path}-Heavy.woff") format("woff"),
+       url("#{$font-path}-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Fira Sans";
+  src: url("#{$font-path}-Ultralight.eot");
+  src: url("#{$font-path}-Ultralight.woff") format("woff"),
+       url("#{$font-path}-Ultralight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
