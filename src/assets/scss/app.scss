@@ -125,6 +125,11 @@ em {
     line-height: inherit;
     color: $em-color;
 }
+
+// Menu font size
+.menu {
+  font-size: $menu-font-size;
+}
 // Title-bar Variables
 .title-bar {
   .title-bar {
