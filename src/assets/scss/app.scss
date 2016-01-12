@@ -107,6 +107,13 @@ body {
 /// @type String
 $small-font-weight: $global-weight-normal !default;
 
+p {
+    // Only affects medium screens and smaller
+    @include breakpoint(small down) { 
+    font-size: 90%;
+    line-height: 1.5;
+    }
+}
 
 small {
     font-weight: $small-font-weight;
