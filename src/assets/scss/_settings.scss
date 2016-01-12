@@ -64,7 +64,8 @@ $body-font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Roboto, Arial, sans
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
-$global-weight-normal: normal;
+$global-weight-light: 100;
+$global-weight-normal: 300;
 $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
@@ -98,25 +99,25 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: 600;
 $header-font-style: normal;
 $font-family-monospace: 'Fira Mono', Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
+    'h1': 28,
     'h2': 20,
     'h3': 19,
-    'h4': 18,
-    'h5': 17,
-    'h6': 16,
+    'h4': 16,
+    'h5': 14,
+    'h6': 12,
   ),
   medium: (
-    'h1': 48,
-    'h2': 40,
+    'h1': 38,
+    'h2': 32,
     'h3': 31,
-    'h4': 25,
-    'h5': 20,
-    'h6': 16,
+    'h4': 20,
+    'h5': 16,
+    'h6': 14,
   ),
 );
 $header-color: inherit;
@@ -124,8 +125,9 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
+$small-font-weight: normal;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: 1.9;
 $paragraph-margin-bottom: 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
