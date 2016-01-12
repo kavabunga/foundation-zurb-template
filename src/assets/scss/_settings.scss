@@ -372,11 +372,14 @@ $mediaobject-image-width-stacked: 100%;
 // 22. Menu
 // --------
 
-$menu-margin: 0;
+$menu-margin: 0 0 1rem 0;
 $menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+// $menu-item-padding: 0.7rem 1rem;
+$menu-item-padding: 0rem 0rem 1rem 0rem;
 $menu-icon-spacing: 0.25rem;
 $menu-expand-max: 6;
+$menu-font-weight: $global-weight-light;
+$menu-font-size: 120%;
 
 // 23. Off-canvas
 // --------------
